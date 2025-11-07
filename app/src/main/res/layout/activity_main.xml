@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- 🏷️ TÍTULO PRINCIPAL -->
     <TextView
         android:id="@+id/textTituloPrincipal"
         android:layout_width="match_parent"
@@ -13,10 +14,10 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:background="@android:color/black"
+        android:background="@android:color/holo_blue_dark"
         android:textColor="@android:color/white"
-        android:paddingVertical="8dp"
-        android:layout_marginBottom="8dp" />
+        android:paddingVertical="6dp"
+        android:layout_marginBottom="6dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listaEjemplo"
